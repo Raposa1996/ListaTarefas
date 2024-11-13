@@ -9,13 +9,16 @@ body {
 }
 
 .container {
-    background-color: rgba(209, 209, 209, 0.9);
+    background-color: rgba(209, 209, 209, 0.4); /* Opacidade do fundo ajustada para 40% */
     width: 500px;
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
+    opacity: 1; /* O conteúdo dentro do container mantém opacidade total */
 }
+
+
 
 h1 {
     font-family: 'Anton SC', sans-serif;
@@ -30,6 +33,7 @@ h1 {
     height: 40px;
     padding-left: 10px;
     margin-right: 10px;
+    margin-bottom: 15px; /* Adiciona espaçamento entre a barra de digitação e o botão */
 }
 
 .button-add-task {
@@ -45,7 +49,7 @@ h1 {
 }
 
 .button-add-task:hover {
-    background-color: #005f4a;
+    background-color: #8d0808;
 }
 
 .list-tasks {
